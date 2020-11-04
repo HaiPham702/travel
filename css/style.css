@@ -1,0 +1,116 @@
+
+
+.container-fluid{
+    background-color: #bbbfca;
+    padding:0 40px;
+    padding-top: 40px;
+}
+.image{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.image.hai{
+    position: relative;
+    top: -48px;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    position: relative;
+    top: 10rem;
+    left: -2%;
+    font-size: 40px;
+    text-align: center;
+    z-index: 1;
+    margin-bottom: 26px;
+}
+.container-fluid.hai{
+    background-color: #898b8a;
+    padding: 60px;
+}
+.container-fluid.hai h1{
+    color: #fff;
+    font-size: 30px;
+    
+}
+a{
+    text-decoration: underline;
+}
+.menu{
+    padding: 60px 100px;
+    padding-bottom:0 ;
+}
+.menu ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.right{
+    float: right;
+}
+.sub{
+    color:#fff;
+    position: relative;
+    top:300px;
+    left: 5%;
+}
+.sub h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media all and (max-width:992px) and (min-width:768px){
+    .menu{
+        background-color: #39311d;
+        color: #fff;
+        font-weight: bold;
+    }
+    .title img{
+        display: none;
+    }
+    .sub{
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;;
+        top: 0;
+        left: 3%;
+    }
+    .container-fluid{
+        background-color: #fff;
+    }
+    .container-fluid.hai{
+        background-color: #fff;
+    }
+    .container-fluid.hai h1{
+        color: #000;
+    }
+}
+@media screen and (max-width:768px){
+    .menu{
+        background-color: #39311d;
+        color: #fff;
+        font-size: 15px;
+        padding: 40px 0;
+    }
+    .menu ul{
+        padding: 0;
+    }
+    .title img{
+        display: none;
+    }
+    .sub{
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;;
+        top: 0;
+        left: 3%;
+    }
+    .container-fluid{
+        background-color: #fff;
+    }
+    .container-fluid.hai{
+        background-color: #fff;
+    }
+    .container-fluid.hai h1{
+        color: #000;
+    }   
+}
